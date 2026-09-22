@@ -8,4 +8,10 @@ def test_gaussian_shape():
     q = gaussian(x, 1.0, 1.0)
     
     assert np.isclose(q[1], 1.0)
+
+def test_object_type():
+    x = np.array([0.0, 1.0, 2.0])
+    
+    q = gaussian(x, 1.0, 1.0)
+    
     assert isinstance(q, np.ndarray)
