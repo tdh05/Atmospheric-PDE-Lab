@@ -9,6 +9,7 @@ description = "Numerical investigation of atmospheric transport and partial diff
 requires-python = ">=3.13"
 dependencies = [
     "numpy",
+    "matplotlib",
 ]
 
 [project.optional-dependencies]

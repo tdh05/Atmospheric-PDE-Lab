@@ -4,5 +4,6 @@ Version: 0.1.0
 Summary: Numerical investigation of atmospheric transport and partial differential equations
 Requires-Python: >=3.13
 Requires-Dist: numpy
+Requires-Dist: matplotlib
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
